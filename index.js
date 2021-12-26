@@ -177,6 +177,10 @@ class instance extends instance_skel {
 			this.socket.on('disconnect', () => {
 				this.status(this.STATUS_ERROR, 'Disconnected.')
 			})
+			
+			this.socket.on('deviceSizeChanged', () => {
+				this.updateFeedbacks();
+			})
 
 			this.socket.on("widgetState", (widgetStates) => {
 				this.widgetStates = widgetStates;
