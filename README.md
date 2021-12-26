@@ -1,2 +1,2 @@
-# companion-module-[replace with module name]
+# companion-module-makeprox-glue
 See [HELP.md](./HELP.md) and [LICENSE](./LICENSE)
