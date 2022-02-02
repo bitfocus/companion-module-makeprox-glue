@@ -1,33 +1,33 @@
 {
-  "name": "makeprox-glue",
-  "version": "1.0.0",
-  "api_version": "1.0.0",
-  "description": "Module to connect to a MakeProX Glue instance.",
-  "main": "index.js",
-  "keywords": [
-    "controller",
-    "makeproaudio",
-    "makepro-x",
-    "makeprox",
-    "glue"
-  ],
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "manufacturer": "MakeProX",
-  "product": "Glue",
-  "shortname": "Glue",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/bitfocus/companion-module-makeprox-glue.git"
-  },
-  "author": "Hannes Rüger <hannes@makeproaudio.com>",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/bitfocus/companion-module-makeprox-glue/issues"
-  },
-  "homepage": "https://github.com/bitfocus/companion-module-makeprox-glue#readme",
-  "dependencies": {
-    "socket.io-client": "^4.4.0"
-  }
+	"name": "makeprox-glue",
+	"version": "1.0.0",
+	"api_version": "1.0.0",
+	"description": "Module to connect to a MakeProX Glue instance.",
+	"main": "index.js",
+	"keywords": [
+		"controller",
+		"makeproaudio",
+		"makepro-x",
+		"makeprox",
+		"glue"
+	],
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"manufacturer": "MakeProX",
+	"product": "Glue",
+	"shortname": "Glue",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/bitfocus/companion-module-makeprox-glue.git"
+	},
+	"author": "Hannes Rüger <hannes@makeproaudio.com>",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/bitfocus/companion-module-makeprox-glue/issues"
+	},
+	"homepage": "https://github.com/bitfocus/companion-module-makeprox-glue#readme",
+	"dependencies": {
+		"socket.io-client": "^4.4.0"
+	}
 }
