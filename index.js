@@ -71,7 +71,7 @@ class instance extends instance_skel {
 				if (this.socket) {
 					const widgetIdx = this.getWidgetIdxFromItemId(action);
 					this.debug(`Sending ${action.options.action} command for widget #${widgetIdx}`);
-					this.socket.emit("widgetState", widgetIdx, action.options.action)
+					this.socket.emit("widgetState", widgetIdx, action.options.action || "TOGGLE")
 				}
 			},
 		}
@@ -143,6 +143,7 @@ class instance extends instance_skel {
 						action: 'button',
 						options: {
 							widget: this.getItemId(widgetIdx),
+							action: "PRESS",
 						}
 					}
 				],
